@@ -1,38 +1,141 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Master Class Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Feature
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- React.js 18
+- Next.js 13
+- Typescript
+- Masterial UI
+- Redux and Redux toolkit
+- Prettier, Husky, Lint
+- React hook form, Yup
+- Axios, SWR
+- MVC architecture Pattern
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## [Masterclass](https://www.masterclass.com/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<img src="./public/media/logo.png" alt="image desc" style="max-width: 40%;" />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> **Masterclass** The system provides online courses.
+> ​
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ❓ Require
 
-## Learn More
+​
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js** 12.0 or later
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **MacOS**, **Windows** (including **WSL**), and **Linux** are supported
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Yarn** 1.12.0 or later
 
-## Deploy on Vercel
+- **NPM** 6.4.1 or later
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+​
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 💻 Techs
+
+​
+
+- **_React.js_**: A JavaScript library for building user interfaces.
+
+- **_Next.js_**: Next.js is a flexible React framework that gives you building blocks to create fast web applications.(High performance and SEO)
+
+- **_MUI_**: MUI offers a comprehensive suite of UI tools to help you ship new features faster.
+
+- **_Redux_**: Redux is an open-source JavaScript library for managing and centralizing application state.
+
+- **_Axios_**: Axios is a promise-based HTTP Client for node.js and the browser.
+
+- **_TypeScript_**: JavaScript with syntax for types.
+
+​
+
+## 🎨 Style guide
+
+​
+
+- **_Prettier_**: Code formatter.
+
+- **_ESLint_**: Making code more consistent and avoiding bugs.
+
+​
+
+## 🚀 How to run?
+
+​
+
+1.  Install node_modules:
+
+> Run: `npm install`
+>
+> or
+>
+> Run: `yarn install`
+
+2.  Running dev:
+
+> Run: `npm run dev`
+>
+> or
+>
+> Run: `yarn dev`
+>
+> and
+>
+> Open browser at: `http://localhost:3000`
+
+3.  Running build:
+
+> Run: `npm run build`
+>
+> or
+>
+> Run: `yarn build`
+>
+> and
+>
+> Run: `serve -s build`
+
+4.  Config env:
+
+> cp .env
+
+​
+
+## 🧐 What is inside?
+
+​
+
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+2.  **`/public`**: This directory contains immages and fonts that use in the project.
+
+3.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+4.  **`.env.`**: These files used to store sensitive information such as credentials for your app. Information typically should not be seen by the end-user i.e database logic credentials, API keys, API endpoints etc.
+
+5.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+
+6.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+
+7.  **`deploy.sh`** This file is a universal deployment script that makes it easy for you to deploy your code, files, configuration etc. to multiple server via ssh.
+
+8.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+9.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+10. **`tsconfig.json`**: The tsconfig.json file specifies the root files and the compiler options required to compile the project.
+
+11. **`README.md`**: A text file containing useful reference information about your project.
+
+​
+## MUI template
+
+(Public page)[https://mui.com/store/items/onepirate/]
+
+## 📃 License
+
+> © 2023 - Masterclass
